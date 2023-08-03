@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "cmeel.build"
+requires = ["cmeel[build]", "cmeel-texinfo"]
+
+[project]
+description = "cmeel distribution for help2man"
+license = "GPL-3.0-only"
+name = "cmeel-help2man"
+requires-python = ">= 3.8"
+version = "1.49.3"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/cmeel-help2man"
+repository = "https://github.com/cmake-wheel/cmeel-help2man.git"
+
+[tool.cmeel]
+py3-none = true
+run-tests = false
+
+[tool.tomlsort]
+all = true
