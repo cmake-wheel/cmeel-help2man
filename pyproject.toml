@@ -14,6 +14,7 @@ homepage = "https://github.com/cmake-wheel/cmeel-help2man"
 repository = "https://github.com/cmake-wheel/cmeel-help2man.git"
 
 [tool.cmeel]
+build-number = 1
 py3-none = true
 run-tests = false
 
