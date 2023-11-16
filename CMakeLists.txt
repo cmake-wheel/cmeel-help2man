@@ -8,8 +8,8 @@ include(ExternalProject)
 ExternalProject_Add(
   help2man
   URL "https://ftpmirror.gnu.org/gnu/help2man/help2man-${HELP2MAN_VERSION}.tar.xz"
-      DOWNLOAD_EXTRACT_TIMESTAMP
-      OFF
+  URL_HASH "SHA1=3ed88430c97af3c5b57949f6f030b913044af507"
+  DOWNLOAD_EXTRACT_TIMESTAMP OFF
   BUILD_IN_SOURCE ON
   CONFIGURE_COMMAND "./configure" "--prefix=${CMAKE_INSTALL_PREFIX}"
   # "--with-bugurl=https://github.com/cmake-wheel/cmeel-help2man/issues"
