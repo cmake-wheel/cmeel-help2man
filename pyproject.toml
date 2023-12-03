@@ -12,6 +12,7 @@ version = "1.49.3"
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-help2man"
 repository = "https://github.com/cmake-wheel/cmeel-help2man.git"
+upstream = "https://www.gnu.org/software/help2man/"
 
 [tool.cmeel]
 build-number = 1
